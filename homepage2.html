@@ -20,12 +20,14 @@
 <body>
 <!-- navigation bar -->
 <div class = "topnav">
-		<a class="active" href="#top"> home </a>
-		<a class="" href="about.html"> about </a>
-		<a class="" href="#bottom"> contact </a>
+		<a class="active" href="#home"> home </a>
+		<a href="#about"> about </a>
+		<a href="#work"> work </a>
+		<a href="#contact"> contact </a>
 	</div>
 	
 <!-- homepage/ veniece's pic -->
+<a id="home"></a>
 	<div class="vnpic">
 		<img src="vnbw.jpg" height="300" width="220" alt="vn">
 	</div>
@@ -36,7 +38,8 @@
 <div class="box">
 <div class="about">
 	<br><br>
-	<h2> background </h2> <br>
+<a id="about"></a>
+<h2> background </h2> <br>
 
 	<div class="row">
 			<div class="columnLeft">
@@ -54,7 +57,7 @@
 </div>
 </div>
 	<br><br><br>
-	<br><br><br>
+<a id="work"></a>	<br><br><br>
 	<br><br><br>
 
 
@@ -76,15 +79,15 @@
 	
 <div class="info">
 <br><br><br><br>
-
+<a id="contact"></a>
 <h2> Contact Me! </h2>
 <br>
 
 <form>
-<input type="text" placeholder="FIRST NAME"> <br>
-<input type="text" placeholder="LAST NAME"> <br>
-<input type="text" placeholder="E-MAIL"> <br>
-<input type="text" placeholder="MESSAGE"> <br>
+<input type="text" placeholder="FIRST NAME" required > <br>
+<input type="text" placeholder="LAST NAME" required> <br>
+<input type="text" placeholder="E-MAIL" required> <br>
+<input type="text" placeholder="MESSAGE" required> <br>
 </form>
 <br>
 <input type="submit" value="submit">
